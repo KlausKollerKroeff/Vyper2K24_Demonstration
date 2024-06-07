@@ -1,0 +1,22 @@
+public class IntakeSubsystem implements IntakeInterface {
+
+    private Motor rollerMotor = new SparkMAXMotor(IntakeConstants.ID_intake);
+
+    private Motor pivotMotor = new SparkMAXMotor(IntakeConstants.ID_pivotIntake, true);
+
+    @Override
+    public void intakingRoller(){
+        
+
+    }
+
+    @Override
+    public void intakingRoller(){
+
+    }
+
+    @Override
+    public void stopIntakingRoller(){
+    }
+
+}
